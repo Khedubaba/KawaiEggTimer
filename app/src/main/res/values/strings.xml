@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kawaii Egg Timer</string>
+    <string name="eggimage">EggImage</string>
+    <string name="play_stop_button">play stop button</string>
+</resources>

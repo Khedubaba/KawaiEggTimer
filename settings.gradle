@@ -1,0 +1,2 @@
+rootProject.name='KawaiEggTimer'
+include ':app'
