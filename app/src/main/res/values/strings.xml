@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Kawaii Egg Timer</string>
     <string name="eggimage">EggImage</string>
-    <string name="play_stop_button">play stop button</string>
-    <string name="_00_00">00.00</string>
+    <string name="play_button">play stop button</string>
+    <string name="stop_button">stop button</string>
+    <string name="min00">00</string>
+    <string name="colan">:</string>
+    <string name="sec00">30</string>
 </resources>
