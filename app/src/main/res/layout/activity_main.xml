@@ -37,21 +37,6 @@
         app:layout_constraintVertical_bias="0.406"
         app:srcCompat="@drawable/ic_play_play_48dp" />
 
-<!--    <ImageButton-->
-<!--        android:id="@+id/stopButton"-->
-<!--        android:layout_width="55dp"-->
-<!--        android:layout_height="60dp"-->
-<!--        android:alpha="0"-->
-<!--        android:contentDescription="@string/stop_button"-->
-<!--        android:onClick="stopButtonPressed"-->
-<!--        android:tint="@color/colorPrimary"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/eggimageView"-->
-<!--        app:layout_constraintVertical_bias="0.406"-->
-<!--        app:srcCompat="@drawable/ic_stop_white_48dp" />-->
-
     <SeekBar
         android:id="@+id/timerseekBar"
         android:layout_width="0dp"
@@ -68,44 +53,47 @@
         app:layout_constraintVertical_bias="0.491" />
 
     <TextView
-        android:id="@+id/minutestextView"
+        android:id="@+id/timerTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/min00"
+        android:text="@string/_0_30"
         android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/eggimageView"
         app:layout_constraintEnd_toEndOf="@+id/eggimageView"
-        app:layout_constraintHorizontal_bias="0.325"
         app:layout_constraintStart_toStartOf="@+id/eggimageView"
         app:layout_constraintTop_toTopOf="@+id/eggimageView"
         app:layout_constraintVertical_bias="0.541" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/zeroTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/colan"
-        android:textSize="48sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/eggimageView"
-        app:layout_constraintEnd_toEndOf="@+id/eggimageView"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="@+id/eggimageView"
-        app:layout_constraintTop_toTopOf="@+id/eggimageView"
-        app:layout_constraintVertical_bias="0.541" />
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/zero"
+        android:textColor="#F44336"
+        app:layout_constraintBottom_toTopOf="@+id/eggimageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timerseekBar"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/secondstextView"
+        android:id="@+id/tenTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sec00"
-        android:textSize="48sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/eggimageView"
-        app:layout_constraintEnd_toEndOf="@+id/eggimageView"
-        app:layout_constraintHorizontal_bias="0.662"
-        app:layout_constraintStart_toStartOf="@+id/eggimageView"
-        app:layout_constraintTop_toTopOf="@+id/eggimageView"
-        app:layout_constraintVertical_bias="0.541" />
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/_10"
+        android:textColor="#F44336"
+        app:layout_constraintBottom_toTopOf="@+id/eggimageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timerseekBar"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
